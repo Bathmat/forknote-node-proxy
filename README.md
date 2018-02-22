@@ -31,7 +31,7 @@ curl -L https://raw.githubusercontent.com/Bathmat/forknote-node-proxy/master/ins
 8. Once you're happy with the settings, go ahead and start all the proxy daemon, commands follow.
 
 ```shell
-cd ~/xmr-node-proxy/
+cd ~/forknote-node-proxy/
 pm2 start proxy.js --name=proxy --log-date-format="YYYY-MM-DD HH:mm Z"
 pm2 save
 ```

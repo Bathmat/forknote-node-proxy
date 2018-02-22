@@ -15,7 +15,7 @@ git clone https://github.com/Bathmat/forknote-node-proxy
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm install v6.9.2
-cd ~/xmr-node-proxy
+cd ~/forknote-node-proxy
 npm install
 npm install -g pm2
 cp config_example.json config.json
