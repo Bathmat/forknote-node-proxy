@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/snipa22/xmr-node-proxy/issues"
   },
-  "homepage": "https://github.com/snipa22/xmr-node-proxy#readme",
+  "homepage": "https://github.com/Bathmat/forknote-node-proxy#readme",
   "dependencies": {
     "async": "2.1.4",
     "bignum": "^0.12.5",

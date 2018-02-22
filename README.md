@@ -1,4 +1,4 @@
-# xmr-node-proxy
+# forknote-node-proxy
 
 
 ## Setup Instructions
@@ -20,10 +20,10 @@ passwd nodeproxy
 echo "nodeproxy ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 ```
 
-3. Log in as the **NON-ROOT USER** you just created and run the [deploy script](https://raw.githubusercontent.com/Snipa22/xmr-node-proxy/master/install.sh).  This is very important!  This script will install the proxy to whatever user it's running under!
+3. Log in as the **NON-ROOT USER** you just created and run the [deploy script](https://raw.githubusercontent.com/Bathmat/forknote-node-proxy/master/install.sh).  This is very important!  This script will install the proxy to whatever user it's running under!
 
 ```bash
-curl -L https://raw.githubusercontent.com/Bathmat/xmr-node-proxy/master/install.sh | bash
+curl -L https://raw.githubusercontent.com/Bathmat/forknote-node-proxy/master/install.sh | bash
 ```
 
 3. Once it's complete, copy `example_config.json` to `config.json` and edit as desired.
@@ -82,30 +82,11 @@ The proxy is pre-configured for a 1% donation. This is easily toggled inside of 
 
 ## Installation/Configuration Assistance
 
-If you need help installing the pool from scratch, please have your servers ready, which would be Ubuntu 16.04 servers, blank and clean, DNS records pointed.  These need to be x86_64 boxes with AES-NI Available.
-
-Installation asstiance is 4 XMR, with a 2 XMR deposit, with remainder to be paid on completion.  
-Configuration assistance is 2 XMR with a 1 XMR deposit, and includes debugging your proxy configurations, ensuring that everything is running, and tuning for your uses/needs.  
-
-SSH access with a sudo-enabled user will be needed for installs, preferably the user that is slated to run the pool.
-
-Please contact Snipa at: proxy_installs@snipanet.com or via IRC on irc.freenode.net in #monero-pools
+Contact Bathmat if you have any issues.
 
 ## Known Working Pools
 
-* [XMRPool.net](https://xmrpool.net)
-* [supportXMR.com](https://supportxmr.com)
-* [pool.xmr.pt](https://pool.xmr.pt)
-* [minemonero.pro](https://minemonero.pro)
-* [XMRPool.xyz](https://xmrpool.xyz)
-* [ViaXMR.com](https://viaxmr.com)
-* [mine.MoneroPRO.com](https://mine.moneropro.com)
-* [MinerCircle.com](https://www.minercircle.com)
-* [xmr.p00ls.net](https://www.p00ls.net)
-* [MoriaXMR.com](https://moriaxmr.com)
-* [MoneroOcean.stream](https://moneroocean.stream)
-* [SECUmine.net](https://secumine.net)
-* [Chinaenter.cn](http://xmr.chinaenter.cn)
-* [XMRPool.eu](https://xmrpool.eu)
+* turtle.bathmatminingpools.com
+* coal.bathmatminingpools.com
 
 If you'd like to have your pool added, please make a pull request here, or contact Snipa on IRC!
