@@ -87,6 +87,6 @@ Contact Bathmat if you have any issues.
 ## Known Working Pools
 
 * [Bathmat's TurtleCoin Pool](turtle.bathmatminingpools.com)
-* [Bathmat's BitCoal Pool}(coal.bathmatminingpools.com)
+* [Bathmat's BitCoal Pool](coal.bathmatminingpools.com)
 
 If you'd like to have your pool added, please make a pull request here, or contact Snipa on IRC!
