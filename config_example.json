@@ -5,7 +5,7 @@
       "port": 3333,
       "ssl": false,
       "allowSelfSignedSSL": false,
-      "share": 20,
+      "share": 100,
       "username": "TRTLuymuYb1Z8kKJrtrVwefQmBD6iFjydGeytcDcPacsLqEvEiENGZLF3PpGGAdj3S6AVhGdtTYoQf8L92333SHW189Hwp8C3gY",
       "password": "proxy:totally.valid@bathmatminingpools.com.com",
       "keepAlive": true,
