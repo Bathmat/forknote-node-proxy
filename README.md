@@ -2,7 +2,7 @@
 
 ## Important note!
 
-During testing, each pool need to have ``"default": true` in config.json to allow each version of util to work correctly.
+During testing, each pool needed to have `"default": true` in config.json to allow each version of util to work correctly.
 
 ## Setup Instructions
 
