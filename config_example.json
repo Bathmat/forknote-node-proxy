@@ -5,13 +5,25 @@
       "port": 3333,
       "ssl": false,
       "allowSelfSignedSSL": false,
-      "share": 100,
+      "share": 80,
       "username": "TRTLuymuYb1Z8kKJrtrVwefQmBD6iFjydGeytcDcPacsLqEvEiENGZLF3PpGGAdj3S6AVhGdtTYoQf8L92333SHW189Hwp8C3gY",
       "password": "proxy:totally.valid@bathmatminingpools.com.com",
       "keepAlive": true,
       "coin": "frk",
       "default": true
-    }
+    },
+    {
+      "hostname": "pool.supportxmr.com",
+      "port": 7777,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 20,
+      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
+      "password": "proxy:totally.valid@snipanet.com",
+      "keepAlive": true,
+      "coin": "xmr",
+      "default": true
+    },
   ],
   "listeningPorts": [
     {
@@ -30,11 +42,11 @@
       "port": 3333,
       "ssl": false,
       "diff": 10000,
-      "coin": "frk"
+      "coin": "xmr"
     }
   ],
   "bindAddress": "0.0.0.0",
-  "developerShare": 0,
+  "developerShare": 1,
   "daemonAddress": "127.0.0.1:18081",
   "coinSettings": {
     "xmr":{
