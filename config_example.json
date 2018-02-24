@@ -23,7 +23,7 @@
       "keepAlive": true,
       "coin": "xmr",
       "default": true
-    },
+    }
   ],
   "listeningPorts": [
     {
