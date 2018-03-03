@@ -68,20 +68,13 @@ In your `packages.json`, do a `npm install`, and it should pass.
 
 ## Performance
 
-The proxy gains a massive boost over a basic pool by accepting that the majority of the hashes submitted _will_ not be valid (does not exceed the required difficulty of the pool).  Due to this, the proxy doesn't bother with attempting to validate the hash state nor value until the share difficulty exceeds the pool difficulty.
+The proxy gains a massive boost over a basic pool by accepting that the majority of the hashes submitted _will not_ be valid (does not exceed the required difficulty of the pool).  Due to this, the proxy doesn't bother with attempting to validate the hash state nor value until the share difficulty exceeds the pool difficulty.
 
 In testing, we've seen AWS t2.micro instances take upwards of 2k connections, while t2.small taking 6k.  The proxy is extremely light weight, and while there are more features on the way, it's our goal to keep the proxy as light weight as possible.
 
 ## Configuration Guidelines
 
 Please check the [wiki](https://github.com/Snipa22/xmr-node-proxy/wiki/config_review) for information on configuration
-
-## Developer Donations
-
-The proxy is pre-configured for a 1% donation. This is easily toggled inside of it's configuration. If you'd like to make a one time donation, the addresses are as follows:
-
-* XMR - 44Ldv5GQQhP7K7t3ZBdZjkPA7Kg7dhHwk3ZM3RJqxxrecENSFx27Vq14NAMAd2HBvwEPUVVvydPRLcC69JCZDHLT2X5a4gr
-* BTC - 15fkPTtN8cRXD3moKWDoXjuiTaS9FgA3UE
 
 ## Installation/Configuration Assistance
 
@@ -90,6 +83,5 @@ Contact Bathmat if you have any issues.
 ## Known Working Pools
 
 * [Bathmat's TurtleCoin Pool](http://turtle.bathmatminingpools.com)
+* [Bathmat's LeviarCoin Pool](http://leviar.bathmatminingpools.com)
 * [Bathmat's BitCoal Pool](http://coal.bathmatminingpools.com)
-
-If you'd like to have your pool added, please make a pull request here, or contact Snipa on IRC!
